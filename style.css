@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.full_screen{
+    background-image: url(https://images.unsplash.com/photo-1502239608882-93b729c6af43?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.form_container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.13);
+    padding: 50px 50px;
+    border-radius: 6px;
+}
+.form_container h2{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div{
+    margin-bottom: 20px;
+}
+form{
+    margin-bottom: 10px;
+}
+
+.user_email,
+.user_password,
+form button,
+.facebook_btn,
+.google_btn{
+    background-color: rgba(255,255,255,0.07);
+    padding: 0px 10px;
+    border-radius: 3px;
+}
+form button[type="submit"]{
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.user_email,
+.user_password{
+    display: flex;
+    align-items: center;
+}
+input{
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+}
+input::placeholder{
+    color: white;
+}
+.user_email i,
+.user_password i{
+    color: white;
+    margin-top: -4px;
+    margin-right: 15px;
+
+}
+p{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.socail_log{
+    display: flex;
+    justify-content: space-between;
+}
+.facebook_btn button,
+.google_btn button{
+    width: 100%;
+    padding: 5px 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.facebook_btn button i,
+.google_btn button i{
+    margin-right: 5px;
+}
